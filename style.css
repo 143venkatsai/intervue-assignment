@@ -1,0 +1,231 @@
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Sora", sans-serif;
+  margin: 20px 80px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  width: 150px;
+  height: 30px;
+}
+
+nav ul li {
+  margin-left: 30px;
+  font-size: 16px;
+}
+
+nav button {
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+header nav .menu {
+  display: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+header nav .close {
+  display: none;
+  font-size: 22px;
+  cursor: pointer;
+  position: fixed;
+  top: 30px;
+  right: 25px;
+  transition: 0.3s ease-in-out;
+  color: black;
+}
+
+.mobile-logo {
+  display: none;
+}
+
+.section-1 {
+  margin: 20px 80px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sora", sans-serif;
+}
+
+.section-2 {
+  font-family: "Sora", sans-serif;
+  margin: 20px 80px;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.section-3 {
+  padding: 50px 80px;
+  font-family: "Sora", sans-serif;
+}
+
+.section-4,
+.section-5 {
+  margin: 80px 200px;
+  font-family: "Sora", sans-serif;
+}
+
+.section-6 {
+  padding: 80px 80px;
+  margin-top: 80px;
+  font-family: "Sora", sans-serif;
+}
+
+footer {
+  font-family: "Sora", sans-serif;
+  padding: 60px 80px;
+  background-color: #212121;
+}
+
+/* Mobile View */
+@media screen and (max-width: 768px) {
+  header nav {
+    margin: 30px 30px;
+  }
+
+  header nav .menu {
+    display: block;
+  }
+
+  header nav ul {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+  }
+
+  header nav .close {
+    font-size: 22px;
+    cursor: pointer;
+    position: fixed;
+    top: 30px;
+    right: 25px;
+    transition: 0.3s ease-in-out;
+    color: black;
+  }
+
+  nav ul.open {
+    right: 0;
+  }
+
+  nav ul li {
+    margin: 20px 0;
+    font-size: 18px;
+  }
+
+  .mobile-logo {
+    display: inline;
+    top: 30px;
+    left: 30px;
+    position: absolute;
+    height: 30px;
+    width: 100px;
+  }
+
+  nav img {
+    height: 30px;
+    width: 100px;
+  }
+
+  nav ul button {
+    margin-bottom: 30px;
+    margin-left: 0px;
+  }
+
+  .section-1 {
+    margin: 30px 20px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sora", sans-serif;
+  }
+
+  .section-2 {
+    margin: 30px 20px;
+  }
+
+  .section-3 {
+    margin-top: 100px;
+    padding: 50px 20px;
+    font-family: "Sora", sans-serif;
+  }
+
+  .section-4,
+  .section-5 {
+    margin: 80px 20px;
+  }
+  .section-6 {
+    padding: 80px 20px;
+    margin-top: 80px;
+  }
+
+  footer {
+    padding: 80px 20px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 996px) {
+  header nav ul button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  header nav {
+    margin: 20px 20px;
+  }
+  .section-1 {
+    margin: 20px 20px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sora", sans-serif;
+  }
+
+  .section-2 {
+    margin: 20px 20px;
+  }
+
+  .section-3 {
+    margin-top: 100px;
+    padding: 50px 20px;
+  }
+
+  .section-4,
+  .section-5 {
+    margin: 80px 20px;
+  }
+
+  .section-6 {
+    padding: 80px 20px;
+    margin-top: 80px;
+  }
+
+  footer {
+    padding: 80px 20px;
+  }
+}

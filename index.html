@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <header class="fixed top-0 left-0 w-full bg-white shadow-md">
+        <nav>
+          <img
+            src="https://d2b1cooxpkirg1.cloudfront.net/publicAssets/intervue.svg"
+            alt="Intervue"
+          />
+          <ul>
+            <img
+              src="https://d2b1cooxpkirg1.cloudfront.net/publicAssets/intervue.svg"
+              alt="Intervue"
+              class="mobile-logo"
+            />
+            <li>
+              <a
+                ><span class="mx-2"><i class="fa-solid fa-user"></i></span
+                >Become an Interviewer
+                <span class="mx-1"
+                  ><i class="fa-solid fa-arrow-trend-up"></i></span
+              ></a>
+            </li>
+            <li><a>features</a></li>
+            <li><a>Pricing</a></li>
+            <li><a>Start a trial</a></li>
+            <button class="border py-1 px-4 rounded">Login</button>
+            <button class="bg-black text-white py-1 px-4 rounded">
+              Signup
+            </button>
+            <i class="fa-solid fa-xmark close"></i>
+          </ul>
+          <i class="fa-solid fa-bars menu"></i>
+        </nav>
+      </header>
+      <main>
+        <section class="section-1">
+          <h1 class="text-2xl text-center md:text-3xl lg:text-4xl">
+            Technical Interview Resources
+          </h1>
+          <p class="my-2 text-center">
+            Find all the technical interview resources
+          </p>
+          <div class="my-3 bg-gray-200 px-5 py-3 md:w-100 rounded-full">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              type="text"
+              class="px-2 focus:outline-none"
+              placeholder="Search for resource here"
+            />
+          </div>
+        </section>
+        <section
+          class="section-2 grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+        >
+          <div class="border border-gray-400 rounded px-5 py-5 hidden sm:block">
+            <div class="my-2">
+              <span class="bg-blue-700 px-3 py-1 rounded text-white">Easy</span>
+              <span
+                class="sm:mx-2 text-gray-700 text-sm block sm:inline mt-2 sm:mt-0"
+                >DATA STRUCTURES & ALGORITHMS</span
+              >
+            </div>
+            <h5 class="font-bold text-md">Design a Free Food App</h5>
+            <p class="py-2">
+              We created this guide after speaking with our community of
+              interviewers, which includes over 100 current and former Amazon
+              engineers, as well as our corpus of mock interviews.
+            </p>
+          </div>
+
+          <div class="border border-gray-400 rounded px-5 py-5">
+            <div class="my-2">
+              <span class="bg-orange-400 px-3 py-1 rounded text-white"
+                >Medium</span
+              >
+              <span
+                class="sm:mx-2 text-gray-700 text-sm block sm:inline mt-2 sm:mt-0"
+                >DATA STRUCTURES & ALGORITHMS</span
+              >
+            </div>
+            <h5 class="font-bold text-md">Design a Free Food App</h5>
+            <p class="py-2">
+              We created this guide after speaking with our community of
+              interviewers, which includes over 100 current and former Amazon
+              engineers, as well as our corpus of mock interviews.
+            </p>
+          </div>
+
+          <div class="border border-gray-400 rounded px-5 py-5 hidden sm:block">
+            <div class="my-2">
+              <span class="bg-green-500 px-3 py-1 rounded text-white"
+                >Hard</span
+              >
+              <span
+                class="sm:mx-2 text-gray-700 text-sm block sm:inline mt-2 sm:mt-0"
+                >DATA STRUCTURES & ALGORITHMS</span
+              >
+            </div>
+            <h5 class="font-bold text-md">Design a Free Food App</h5>
+            <p class="py-2">
+              We created this guide after speaking with our community of
+              interviewers, which includes over 100 current and former Amazon
+              engineers, as well as our corpus of mock interviews.
+            </p>
+          </div>
+
+          <div class="border border-gray-400 rounded px-5 py-5 hidden sm:block">
+            <div class="my-2">
+              <span class="bg-blue-700 px-3 py-1 rounded text-white">Easy</span>
+              <span
+                class="sm:mx-2 text-gray-700 text-sm block sm:inline mt-2 sm:mt-0"
+                >DATA STRUCTURES & ALGORITHMS</span
+              >
+            </div>
+            <h5 class="font-bold text-md">Design a Free Food App</h5>
+            <p class="py-2">
+              We created this guide after speaking with our community of
+              interviewers, which includes over 100 current and former Amazon
+              engineers, as well as our corpus of mock interviews.
+            </p>
+          </div>
+
+          <div class="border border-gray-400 rounded px-5 py-5">
+            <div class="my-2">
+              <span class="bg-orange-400 px-3 py-1 rounded text-white"
+                >Medium</span
+              >
+              <span
+                class="sm:mx-2 text-gray-700 text-sm block sm:inline mt-2 sm:mt-0"
+                >DATA STRUCTURES & ALGORITHMS</span
+              >
+            </div>
+            <h5 class="font-bold text-md">Design a Free Food App</h5>
+            <p class="py-2">
+              We created this guide after speaking with our community of
+              interviewers, which includes over 100 current and former Amazon
+              engineers, as well as our corpus of mock interviews.
+            </p>
+          </div>
+
+          <div class="border border-gray-400 rounded px-5 py-5 hidden sm:block">
+            <div class="my-2">
+              <span class="bg-green-500 px-3 py-1 rounded text-white"
+                >Hard</span
+              >
+              <span
+                class="sm:mx-2 text-gray-700 text-sm block sm:inline mt-2 sm:mt-0"
+                >DATA STRUCTURES & ALGORITHMS</span
+              >
+            </div>
+            <h5 class="font-bold text-md">Design a Free Food App</h5>
+            <p class="py-2">
+              We created this guide after speaking with our community of
+              interviewers, which includes over 100 current and former Amazon
+              engineers, as well as our corpus of mock interviews.
+            </p>
+          </div>
+
+          <div class="border border-gray-400 rounded px-5 py-5 hidden sm:block">
+            <div class="my-2">
+              <span class="bg-blue-700 px-3 py-1 rounded text-white">Easy</span>
+              <span
+                class="sm:mx-2 text-gray-700 text-sm block sm:inline mt-2 sm:mt-0"
+                >DATA STRUCTURES & ALGORITHMS</span
+              >
+            </div>
+            <h5 class="font-bold text-md">Design a Free Food App</h5>
+            <p class="py-2">
+              We created this guide after speaking with our community of
+              interviewers, which includes over 100 current and former Amazon
+              engineers, as well as our corpus of mock interviews.
+            </p>
+          </div>
+
+          <div class="border border-gray-400 rounded px-5 py-5">
+            <div class="my-2">
+              <span class="bg-orange-400 px-3 py-1 rounded text-white"
+                >Medium</span
+              >
+              <span
+                class="sm:mx-2 text-gray-700 text-sm block sm:inline mt-2 sm:mt-0"
+                >DATA STRUCTURES & ALGORITHMS</span
+              >
+            </div>
+            <h5 class="font-bold text-md">Design a Free Food App</h5>
+            <p class="py-2">
+              We created this guide after speaking with our community of
+              interviewers, which includes over 100 current and former Amazon
+              engineers, as well as our corpus of mock interviews.
+            </p>
+          </div>
+
+          <div class="border border-gray-400 rounded px-5 py-5 hidden sm:block">
+            <div class="my-2">
+              <span class="bg-green-500 px-3 py-1 rounded text-white"
+                >Hard</span
+              >
+              <span
+                class="sm:mx-2 text-gray-700 text-sm block sm:inline mt-2 sm:mt-0"
+                >DATA STRUCTURES & ALGORITHMS</span
+              >
+            </div>
+            <h5 class="font-bold text-md">Design a Free Food App</h5>
+            <p class="py-2">
+              We created this guide after speaking with our community of
+              interviewers, which includes over 100 current and former Amazon
+              engineers, as well as our corpus of mock interviews.
+            </p>
+          </div>
+
+          <div class="border border-gray-400 rounded px-5 py-5 hidden sm:block">
+            <div class="my-2">
+              <span class="bg-blue-700 px-3 py-1 rounded text-white">Easy</span>
+              <span
+                class="sm:mx-2 text-gray-700 text-sm block sm:inline mt-2 sm:mt-0"
+                >DATA STRUCTURES & ALGORITHMS</span
+              >
+            </div>
+            <h5 class="font-bold text-md">Design a Free Food App</h5>
+            <p class="py-2">
+              We created this guide after speaking with our community of
+              interviewers, which includes over 100 current and former Amazon
+              engineers, as well as our corpus of mock interviews.
+            </p>
+          </div>
+
+          <div class="border border-gray-400 rounded px-5 py-5 hidden sm:block">
+            <div class="my-2">
+              <span class="bg-orange-400 px-3 py-1 rounded text-white"
+                >Medium</span
+              >
+              <span
+                class="sm:mx-2 text-gray-700 text-sm block sm:inline mt-2 sm:mt-0"
+                >DATA STRUCTURES & ALGORITHMS</span
+              >
+            </div>
+            <h5 class="font-bold text-md">Design a Free Food App</h5>
+            <p class="py-2">
+              We created this guide after speaking with our community of
+              interviewers, which includes over 100 current and former Amazon
+              engineers, as well as our corpus of mock interviews.
+            </p>
+          </div>
+
+          <div class="border border-gray-400 rounded px-5 py-5 hidden sm:block">
+            <div class="my-2">
+              <span class="bg-green-500 px-3 py-1 rounded text-white"
+                >Hard</span
+              >
+              <span
+                class="sm:mx-2 text-gray-700 text-sm block sm:inline mt-2 sm:mt-0"
+                >DATA STRUCTURES & ALGORITHMS</span
+              >
+            </div>
+            <h5 class="font-bold text-md">Design a Free Food App</h5>
+            <p class="py-2">
+              We created this guide after speaking with our community of
+              interviewers, which includes over 100 current and former Amazon
+              engineers, as well as our corpus of mock interviews.
+            </p>
+          </div>
+        </section>
+        <section class="section-3 bg-gray-100">
+          <h1 class="text-2xl md:text-3xl my-3">
+            Security is our top priority
+          </h1>
+          <p class="pb-5">
+            Intervue serves startups to fortune 500 companies with enterprise
+            grade security backed in by design
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-5 lg:w-1/2">
+            <!-- Security Card -->
+            <div
+              class="flex flex-col items-start p-4 bg-white shadow-md section-3-card"
+            >
+              <i class="fa-solid fa-key mb-3"></i>
+              <h5 class="font-semibold">Security</h5>
+              <p>
+                Protecting your data at every layer is fundamental to how
+                Intervue works.
+              </p>
+              <!-- Arrow icon positioned bottom-right -->
+              <i class="fa-solid fa-arrow-right-long ml-auto mt-auto"></i>
+            </div>
+
+            <!-- Compliances Card -->
+            <div
+              class="flex flex-col items-start p-4 bg-white shadow-md section-3-card"
+            >
+              <i class="fa-solid fa-layer-group mb-3"></i>
+              <h5 class="font-semibold">Compliances</h5>
+              <p>
+                Enterprise grade compliance commitments where we have
+                established controls to adhere to those achievements.
+              </p>
+              <!-- Arrow icon positioned bottom-right -->
+              <i class="fa-solid fa-arrow-right-long ml-auto mt-auto"></i>
+            </div>
+
+            <!-- Startups Card -->
+            <div
+              class="flex flex-col space-y-4 p-4 bg-white shadow-md section-3-card"
+            >
+              <div>
+                <i class="fa-solid fa-rocket mb-3"></i>
+                <p class="flex justify-between items-center">
+                  <span>Intervue for Startups</span>
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </p>
+              </div>
+            </div>
+
+            <!-- Enterprises Card -->
+            <div
+              class="flex flex-col space-y-4 p-4 bg-white shadow-md section-3-card"
+            >
+              <div>
+                <i class="fa-solid fa-globe mb-3"></i>
+                <p class="flex justify-between items-center">
+                  <span>Intervue for Enterprises</span>
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-4 flex flex-col lg:flex-row items-center my-5">
+          <div class="md:w-1/2 mb-4 lg:mb-0">
+            <video
+              id="customer-stories-videojs-player_html5_api"
+              autoplay=""
+              class="vjs-tech"
+              tabindex="-1"
+              role="application"
+              preload="true"
+              loop=""
+              src="https://d26rchw36216zf.cloudfront.net/public/assets/homepage_temp_assets/b970b78d-517b-4a9e-be2f-fad79e018e5a.mp4"
+            >
+              <source
+                src="https://d26rchw36216zf.cloudfront.net/public/assets/homepage_temp_assets/b970b78d-517b-4a9e-be2f-fad79e018e5a.mp4"
+              />
+            </video>
+          </div>
+
+          <div class="md:w-1/2 sm:mx-5 mx-0">
+            <p class="text-gray-700">
+              After reviewing candidates on Intervue, we were able to convert at
+              least 5% of people from our application base to hires.
+            </p>
+            <h5 class="font-semibold text-lg mt-5">Niket Gupta</h5>
+            <p>Group head of talent acquisition, Yubi</p>
+            <p class="mt-5">
+              <span class="text-blue-600">See more customer stories</span>
+              <i class="fa-solid fa-arrow-right-long text-blue-500"></i>
+            </p>
+          </div>
+        </section>
+        <section class="section-5 flex flex-col items-center my-5">
+          <h1 class="my-5 lg:text-3xl text-2xl text-left">
+            Expolre more products on intervue
+          </h1>
+          <div
+            class="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-5"
+          >
+            <div class="rounded p-5 shadow-lg section-5-card">
+              <img
+                src="https://uploads-ssl.webflow.com/608e9cc36cbcc089f0998643/64c6135016fce3dec26c8c4b_technical-interviews.png"
+                alt="On-demand"
+              />
+              <div class="py-4 h-52 flex flex-col justify-between bg-white">
+                <div>
+                  <h5 class="font-semibold">On-demand</h5>
+                  <p class="text-gray-700 py-2">
+                    Save 90% of engineering and bandwidth, outsource candidate
+                    interviews to us
+                  </p>
+                </div>
+                <p class="flex items-center">
+                  <span class="text-blue-600 text-lg">Know more</span>
+                  <i
+                    class="fa-solid fa-arrow-right-long text-blue-500 ml-2"
+                  ></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="rounded p-5 shadow-lg section-5-card">
+              <img
+                src="https://uploads-ssl.webflow.com/608e9cc36cbcc089f0998643/64c6135016fce3dec26c8c4b_technical-interviews.png"
+                alt="On-demand"
+              />
+              <div class="py-4 h-52 flex flex-col justify-between bg-white">
+                <div>
+                  <h5 class="font-semibold">On-demand</h5>
+                  <p class="text-gray-700 py-2">
+                    Save 90% of engineering and bandwidth, outsource candidate
+                    interviews to us
+                  </p>
+                </div>
+                <p class="flex items-center">
+                  <span class="text-blue-600 text-lg">Know more</span>
+                  <i
+                    class="fa-solid fa-arrow-right-long text-blue-500 ml-2"
+                  ></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="rounded p-5 shadow-lg section-5-card">
+              <img
+                src="https://uploads-ssl.webflow.com/608e9cc36cbcc089f0998643/64c6135016fce3dec26c8c4b_technical-interviews.png"
+                alt="On-demand"
+              />
+              <div class="py-4 h-52 flex flex-col justify-between bg-white">
+                <div>
+                  <h5 class="font-semibold">On-demand</h5>
+                  <p class="text-gray-700 py-2">
+                    Save 90% of engineering and bandwidth, outsource candidate
+                    interviews to us
+                  </p>
+                </div>
+                <p class="flex items-center">
+                  <span class="text-blue-600 text-lg">Know more</span>
+                  <i
+                    class="fa-solid fa-arrow-right-long text-blue-500 ml-2"
+                  ></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="section-6 bg-orange-100 py-10 px-6 lg:flex lg:space-x-10"
+        >
+          <div class="lg:w-1/3">
+            <h2 class="text-3xl text-gray-900 font-bold">FAQs</h2>
+            <p class="mt-5 text-gray-600">
+              Here are frequently asked questions to clear all your doubts.
+            </p>
+            <h5 class="mt-10 text-lg font-semibold hidden sm:block">
+              Still have doubts?
+            </h5>
+            <p
+              class="flex items-center space-x-2 text-blue-600 mt-2 mb-10 hidden sm:block"
+            >
+              <i class="fa-solid fa-phone text-blue-500"></i>
+              <span>Talk to our representative</span>
+            </p>
+          </div>
+
+          <div class="lg:w-2/3 space-y-4">
+            <hr class="mt-10 md:mt-0" />
+            <div>
+              <div
+                class="flex justify-between items-center cursor-pointer toggle-faq"
+              >
+                <h1 class="text-md font-bold">
+                  How do I schedule an Interview?
+                </h1>
+                <i
+                  class="fa-solid fa-chevron-down text-gray-600 transition-transform rotate-0 faq-icon"
+                ></i>
+              </div>
+              <p class="text-gray-700 mt-2 hidden faq-content">
+                Go to intervue.io/homepage and select the profile and rounds you
+                want to schedule the interview for. Add candidate and company
+                details and click 'Schedule Interview.'
+              </p>
+            </div>
+
+            <hr />
+            <div>
+              <div
+                class="flex justify-between items-center cursor-pointer toggle-faq"
+              >
+                <h1 class="text-md font-bold">
+                  Will I be charged per interview?
+                </h1>
+                <i
+                  class="fa-solid fa-chevron-down text-gray-600 transition-transform rotate-0 faq-icon"
+                ></i>
+              </div>
+              <p class="text-gray-700 mt-2 hidden faq-content">
+                For on-demand interviews, you will get paid credits to use per
+                month.
+              </p>
+            </div>
+
+            <hr />
+            <div>
+              <div
+                class="flex justify-between items-center cursor-pointer toggle-faq"
+              >
+                <h1 class="text-md font-bold">
+                  Can I get a trial for On-demand interviews?
+                </h1>
+                <i
+                  class="fa-solid fa-chevron-down text-gray-600 transition-transform rotate-0 faq-icon"
+                ></i>
+              </div>
+              <p class="text-gray-700 mt-2 hidden faq-content">
+                Yes! Enjoy 2 free credits (1 credt = 1 interview) or you can
+                reach out to us.
+              </p>
+            </div>
+            <h5 class="mt-10 text-lg font-semibold block sm:hidden">
+              Still have doubts?
+            </h5>
+            <p
+              class="flex items-center space-x-2 text-blue-600 mb-10 block sm:hidden"
+            >
+              <i class="fa-solid fa-phone text-blue-500"></i>
+              <span>Talk to our representative</span>
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <img
+          src="https://uploads-ssl.webflow.com/608e9cc36cbcc089f0998643/648175fc7332de3fb931061a_intervue.svg"
+          alt="Intervue"
+          class="mx-auto sm:mx-0"
+        />
+        <div class="grid grid-cols-1 md:grid-cols-2">
+          <div class="flex flex-col items-start space-y-6">
+            <div class="mt-8 md:flex md:flex-wrap gap-10 hidden md:block">
+              <p class="text-white">Facebook</p>
+              <p class="text-white">Instagram</p>
+              <p class="text-white">LinkedIn</p>
+              <p class="text-white">Pinterest</p>
+            </div>
+
+            <div>
+              <h4 class="text-lg font-semibold text-yellow-400 mb-3 mt-10">
+                Hire better & faster
+              </h4>
+              <div
+                class="flex items-center border-b border-gray-400 pb-2 lg:w-100"
+              >
+                <input
+                  type="text"
+                  placeholder="Enter your email address"
+                  class="bg-transparent focus:outline-none placeholder-white"
+                />
+                <i
+                  class="fa-solid fa-arrow-trend-up ml-auto text-yellow-400"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
+            <div class="mt-10 md:mt-0">
+              <h1 class="text-white font-semibold">Company</h1>
+              <p class="text-gray-400 mt-3">So gehts</p>
+              <p class="text-gray-400 mt-3">Erfahrung</p>
+              <p class="text-gray-400 mt-3">Aligner</p>
+              <p class="text-gray-400 mt-3">Preise</p>
+              <p class="text-gray-400 mt-3">Standorte</p>
+            </div>
+            <div class="mt-10 md:mt-0">
+              <h1 class="text-white font-semibold">Resources</h1>
+              <p class="text-gray-400 mt-3">Blog</p>
+              <p class="text-gray-400 mt-3">FAQ</p>
+              <p class="text-gray-400 mt-3">Lift Media</p>
+              <p class="text-gray-400 mt-3">Offense Stellen</p>
+              <p class="text-gray-400 mt-3">Presse kit</p>
+            </div>
+            <div class="mt-10 md:mt-0">
+              <h1 class="text-white font-semibold">Product</h1>
+              <p class="text-gray-400 mt-3">Gratis Termin</p>
+              <p class="text-gray-400 mt-3">Freunde einladen</p>
+              <p class="text-gray-400 mt-3">Patienteninforma</p>
+            </div>
+            <div class="mt-10 md:mt-0">
+              <h1 class="text-white font-semibold">Product</h1>
+              <p class="text-gray-400 mt-3">Blog</p>
+              <p class="text-gray-400 mt-3">FAQ</p>
+              <p class="text-gray-400 mt-3">Lift Media</p>
+              <p class="text-gray-400 mt-3">Offense Stellen</p>
+              <p class="text-gray-400 mt-3">Presse kit</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="social-icons flex justify-center items-center gap-4 text-gray-500 block md:hidden mt-15"
+        >
+          <i class="fa-brands fa-square-facebook text-3xl"></i>
+          <i class="fa-brands fa-square-twitter text-3xl"></i>
+          <i class="fa-brands fa-square-instagram text-3xl"></i>
+          <i class="fa-brands fa-linkedin text-3xl"></i>
+          <i class="fa-brands fa-square-youtube text-3xl"></i>
+        </div>
+        <div class="flex justify-between sm:mt-20 mt-10">
+          <p class="mx-auto md:mx-0">
+            <i class="fa-regular fa-copyright text-gray-400"></i>
+            <span class="text-gray-400"
+              >2023 Intervue. Crafted by great minds</span
+            >
+          </p>
+          <div class="hidden md:block">
+            <span class="text-gray-400 mx-5">Dateenschutz</span>
+            <span class="text-gray-400 mx-5">Impressum</span>
+            <span class="text-gray-400 mx-5">Cookie Policy</span>
+            <span class="text-gray-400">AGBs</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
