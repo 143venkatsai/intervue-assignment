@@ -4,13 +4,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const navList = document.querySelector("nav ul");
 
   menuIcon.addEventListener("click", function () {
-    navList.classList.add("open"); // Show menu
-    closeIcon.style.display = "block"; // Show close icon
+    navList.classList.add("open");
+    closeIcon.style.display = "block";
   });
 
   closeIcon.addEventListener("click", function () {
-    navList.classList.remove("open"); // Hide menu
-    closeIcon.style.display = "none"; // Hide close icon
+    navList.classList.remove("open");
+    closeIcon.style.display = "none";
   });
 });
 
@@ -21,10 +21,10 @@ document.querySelectorAll(".toggle-faq").forEach((faq) => {
 
     if (content.classList.contains("hidden")) {
       content.classList.remove("hidden");
-      icon.classList.add("rotate-180"); // Rotate when expanded
+      icon.classList.add("rotate-180");
     } else {
       content.classList.add("hidden");
-      icon.classList.remove("rotate-180"); // Reset rotation when collapsed
+      icon.classList.remove("rotate-180");
     }
   });
 });
